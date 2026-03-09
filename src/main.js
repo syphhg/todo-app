@@ -1,3 +1,5 @@
+import './style.css'
+
 let todos = JSON.parse(localStorage.getItem('todos')) || []
 
 const form = document.getElementById('todo-form')
