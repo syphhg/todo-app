@@ -24,9 +24,8 @@ body {
   color: var(--text);
   min-height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 200px 20px;
+  padding: 40px 20px 350px 20px;
   background-image: url('https://images.unsplash.com/photo-1632516643720-e7f5d7d6ecc9?q=80&w=822&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-size: cover;
   background-position: center;
@@ -34,10 +33,10 @@ body {
 }
 
 .container {
-  width: 100%;
-  max-width: 380px;
+  width: auto;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 28px 16px;
+  padding: 28px 20px;
 }
 
 h1 {
@@ -57,7 +56,13 @@ h1 {
 #todo-form {
   display: flex;
   gap: 0;
-  margin-bottom: 20px;
+  margin: 0 40px 20px 40px;
+  position: fixed;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  width: auto;
+  padding: 0;
 }
 
 #todo-input {
@@ -120,6 +125,7 @@ h1 {
 
 #todo-list {
   list-style: none;
+  width: 100%;
 }
 
 .todo-item {
