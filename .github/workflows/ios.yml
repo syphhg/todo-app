@@ -28,12 +28,7 @@ jobs:
         run: npm run build
       
       - name: Sync iOS
-        run: npx @capacitor/cli sync ios
-      
-      - name: Build iOS
-        run: |
-          cd ios/App
-          xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug -destination 'platform=iOS Simulator,name=iPhone 15' build
+        run: npx -p @capacitor/cli cap sync ios
       
       - name: Build iOS
         run: |
