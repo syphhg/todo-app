@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "todo-app",
+    "slug": "todo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-60x60@2x.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-60x60@2x.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6496ff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.todoapp.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-60x60@2x.png",
+        "backgroundColor": "#6496ff"
+      }
+    },
+    "web": {
+      "favicon": "./ios/App/App/Assets.xcassets/AppIcon.appiconset/AppIcon-60x60@2x.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d2b57dd9-3e95-4ec7-9ab4-f00f5c554281"
+      }
+    },
+    "build": {
+      "preview": {
+        "distribution": "internal"
+      }
+    },
+    "owner": "syphhg"
+  }
+}
